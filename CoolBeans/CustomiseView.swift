@@ -69,13 +69,12 @@ struct CustomiseView: View {
                             .tag(option)
                     }
                 }
-            }
-            
-            if drink.coffeeBased {
-                Picker("Syrup", selection: $syrup) {
-                    ForEach(menu.syrupOptions) { option in
-                        Text(option.name)
-                            .tag(option)
+                if drink.coffeeBased {
+                    Picker("Syrup", selection: $syrup) {
+                        ForEach(menu.syrupOptions) { option in
+                            Text(option.name)
+                                .tag(option)
+                        }
                     }
                 }
             }
