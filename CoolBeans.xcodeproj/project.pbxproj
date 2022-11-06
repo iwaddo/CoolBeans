@@ -16,6 +16,8 @@
 		9F435A792916D215009474CB /* MenuSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F435A782916D215009474CB /* MenuSection.swift */; };
 		9F435A7B2916D273009474CB /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F435A7A2916D273009474CB /* Menu.swift */; };
 		9F435A7D2916D51B009474CB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F435A7C2916D51B009474CB /* MenuView.swift */; };
+		9FC1785B2917EB8B0098A8C4 /* CustomiseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1785A2917EB8B0098A8C4 /* CustomiseView.swift */; };
+		9FC1785D29180B350098A8C4 /* ConfigurationOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FC1785C29180B350098A8C4 /* ConfigurationOption.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		9F435A782916D215009474CB /* MenuSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuSection.swift; sourceTree = "<group>"; };
 		9F435A7A2916D273009474CB /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		9F435A7C2916D51B009474CB /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		9FC1785A2917EB8B0098A8C4 /* CustomiseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomiseView.swift; sourceTree = "<group>"; };
+		9FC1785C29180B350098A8C4 /* ConfigurationOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigurationOption.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +68,9 @@
 				9F435A662916CFD2009474CB /* CoolBeansApp.swift */,
 				9F435A682916CFD2009474CB /* ContentView.swift */,
 				9F435A7C2916D51B009474CB /* MenuView.swift */,
+				9FC1785A2917EB8B0098A8C4 /* CustomiseView.swift */,
 				9F435A762916D11B009474CB /* Drink.swift */,
+				9FC1785C29180B350098A8C4 /* ConfigurationOption.swift */,
 				9F435A782916D215009474CB /* MenuSection.swift */,
 				9F435A7A2916D273009474CB /* Menu.swift */,
 				9F435A742916D0B2009474CB /* menu.json */,
@@ -158,6 +164,8 @@
 				9F435A772916D11B009474CB /* Drink.swift in Sources */,
 				9F435A792916D215009474CB /* MenuSection.swift in Sources */,
 				9F435A672916CFD2009474CB /* CoolBeansApp.swift in Sources */,
+				9FC1785D29180B350098A8C4 /* ConfigurationOption.swift in Sources */,
+				9FC1785B2917EB8B0098A8C4 /* CustomiseView.swift in Sources */,
 				9F435A7B2916D273009474CB /* Menu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
